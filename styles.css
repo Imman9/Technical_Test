@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.product-page {
+  width: 300px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #e74c3c;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.color-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.quantity-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity-selector button {
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.quantity-selector input {
+  width: 50px;
+  text-align: center;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-to-cart {
+  background-color: #27ae60;
+  color: white;
+}
+
+.wishlist {
+  background-color: #f39c12;
+  color: white;
+}
